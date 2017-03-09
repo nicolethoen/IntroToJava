@@ -1,2 +1,2 @@
 # IntroToJava
-Curriculum for the Introduction to Java course I taught
+Assignments designed to be used in Intro to Java course.
