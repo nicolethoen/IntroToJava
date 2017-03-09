@@ -1,4 +1,4 @@
-package com.gdi.vendingmachine;
+package com.thoen.vendingmachine;
 
 // machines have money and an array of items in them (inventory)
 // create a constructor, getters and setters for each parameter
@@ -9,7 +9,7 @@ public class Machine {
     // for purchase in the vending machine
     // be sure to account for the state when a space in the array doesn't have
     // an item for purchase
-    public static void printContents() {
+    public void printContents() {
 
     }
 
@@ -19,13 +19,13 @@ public class Machine {
     // 2: check how much money is in the machine
     // 3: return change from the machine
     // 4: turn off the machine
-    public static void giveOptions() {
+    public void giveOptions() {
 
     }
 
     // take the action the user specified they want to do in the "giveOptions" method
     // be sure to account for the state when a user enters an invalid number
-    public static void takeAction() {
+    public void takeAction() {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
 
@@ -39,7 +39,7 @@ public class Machine {
     // it should return TRUE if the item was purchased
     // it should return FALSE if the item was not purchased (item does not exist
     // or the vending machine didn't have enough money for the item)
-    public static boolean purchase() {
+    public boolean purchase() {
         // current amount available to purchase things with
         System.out.println("What number item would you like?");
         Scanner s = new Scanner(System.in);
@@ -56,7 +56,7 @@ public class Machine {
     // it uses the machine's setter method to add the money the user input to the
     // total amount of money that the machine has
     // it prints out the amount of money the vending machine has available
-    public static void putMoneyIntoMachine() {
+    public void putMoneyIntoMachine() {
         System.out.println("Input money please");
         Scanner scanner = new Scanner(System.in);
         double input = scanner.nextDouble();
@@ -66,20 +66,20 @@ public class Machine {
 
     // this method checks if there is enough money to purchase an item
     // it returns true if there is enough money, and false if there is not
-    public static boolean checkIfEnoughMoney(int itemNumber, Machine vendingMachine) {
+    public boolean checkIfEnoughMoney(int itemNumber, Machine vendingMachine) {
 
     }
 
     // this method returns the change left in the machine
     // if there is no change available, it tells the user that
-    public static void returnChange() {
+    public void returnChange() {
 
     }
 
     // this method checks if the vending machine has no more inventory.
     // it returns false if there is inventory left in the machine
     // it returns true if the machine is empty
-    public static boolean checkIfEmpty() {
+    public boolean checkIfEmpty() {
 
     }
 }

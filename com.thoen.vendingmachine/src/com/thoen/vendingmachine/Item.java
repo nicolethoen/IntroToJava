@@ -1,4 +1,4 @@
-package com.gdi.vendingmachine;
+package com.thoen.vendingmachine;
 
 
 // items should have a name and a price

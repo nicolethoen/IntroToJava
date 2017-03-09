@@ -1,4 +1,4 @@
-package com.gdi.vendingmachine;
+package com.thoen.vendingmachine;
 
 import java.util.Scanner;
 

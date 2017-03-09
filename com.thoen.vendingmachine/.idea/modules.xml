@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/com.gdi.vendingmachine.iml" filepath="$PROJECT_DIR$/.idea/com.gdi.vendingmachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/com.thoen.vendingmachine.iml" filepath="$PROJECT_DIR$/.idea/com.thoen.vendingmachine.iml" />
     </modules>
   </component>
 </project>
